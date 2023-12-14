@@ -1,0 +1,63 @@
+body {
+  background-color: #4059AD;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #F4B942;
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  outline: none;
+}
+
+button:hover {
+  color: #EFF2F1;
+  background: #6B9AC4;
+}
+
+.line {
+  background-color: #EFF2F1;
+  height: 30px;
+  text-align: center;
+}
+
+.mainBox {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 10%;
+  transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+}
+
+#message {
+  color: black;
+}
+
+.selected {
+  background: #6B9AC4;
+  color: #EFF2F1;
+}
+
+
